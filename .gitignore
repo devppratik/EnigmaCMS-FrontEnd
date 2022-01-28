@@ -29,3 +29,7 @@ yarn-error.log*
 
 # Local History for Visual Studio Code
 .history/
+
+.eslintcache
+
+package-lock.json

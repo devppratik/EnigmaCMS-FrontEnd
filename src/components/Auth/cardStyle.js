@@ -10,12 +10,15 @@ const useStyle = makeStyles(theme => ({
     minWidth: "calc(50% - 20px)",
     [theme.breakpoints.down('xs')]:{
       minWidth: "100%",
-      // transform: 'translateX(calc(-30px))'
+      transform: 'translateX(calc(-28px))'
     },
-    margin:10,
-    padding:'10vh 0',
+    marginLeft:10,
+    marginRight:5,
+    marginTop:5,
+    marginBottom:0,
+    padding:'16vh 0 15vh 0',
     overflow:'hidden'
   },
 }));
 
-export default useStyle
+export default useStyle;
